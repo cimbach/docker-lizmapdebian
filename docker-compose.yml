@@ -1,0 +1,12 @@
+
+version: '3.2'
+services:
+  docker-lizmapdebian:
+    build: lizmapuser #folder name
+    image: docker-lizmapdebian:10-2.18-3.1.12
+    ports: 
+      - "8888:80"
+    volumes:
+      - type: bind
+        source: /home/qgis_projects
+        target: /home/qgis_projects
