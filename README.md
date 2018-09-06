@@ -6,10 +6,10 @@
     Lizmap Web Client 3.1.12
     Projects from QGIS Desktop 2.18 (2.18.23) with Lizmap QGIS plugin 2.4 on Ubuntu 18.04
 
-If you have a QGIS project along with its Lizmap config file, put them both in a subdirectory of /home/qgis_projetcs/ on your local computer.\
+If you have a QGIS project along with its Lizmap config file, put them both in a subdirectory of */home/qgis_projetcs/* on your local computer.\
 They will then be readily available in Docker for the Lizmap Web Client once the container has been started. You will still have to create a corresponding repository in the Lizmap administration page and set it as viewable.
 
-Run `docker-compose up -d` as root from the cloned or downloaded directory (from the same location as the docker-compose.yml file).
+Run `docker-compose up -d` as root from the cloned or downloaded directory (from the same location as the *docker-compose.yml* file).
 This will build the Docker image and run the container.\
 You can then access the Debian server with `docker exec -ti docker-lizmapdebian_docker-lizmapdebian_1 bash` as root.
 
@@ -24,9 +24,9 @@ Lizmap Web Client administration page is located at http://localhost:8888/lm/adm
 Ref:\
 [QGIS Server installation](https://docs.qgis.org/testing/en/docs/training_manual/qgis_server/install.html)\
 [X server for printing](https://www.itopen.it/qgis-server-setup-notes/)\
-[Lizmap](https://docs.3liz.com/en/index.html)\
+[Lizmap](https://docs.3liz.com/en/index.html)
 
 Notes:\
 The Dockerfile creates a user *lizmap* on Debian (password *lizmap*).\
 QGIS Server is installed with user *lizmap*.\
-Thanks **@jancelin** for his similar work which helped me understand how to do this! \
+Thanks **@jancelin** for his similar work which helped me understand how to do this!
