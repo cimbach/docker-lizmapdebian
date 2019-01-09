@@ -19,8 +19,8 @@ RUN dpkg-divert --local --rename --add /sbin/initctl && \
     apt-get -y update && \
     apt-get install -y apache2 libapache2-mod-fcgid \
     unzip xvfb locales tzdata xauth htop curl ntp ntpdate sudo \ 
-    libapache2-mod-php7.2 php7.2-cgi php7.2-gd php7.2-sqlite php7.2-curl php7.2-xmlrpc python-simplejson software-properties-common \
-    php7.2-simplexml && \
+    libapache2-mod-php7.3 php7.3-cgi php7.3-gd php7.3-sqlite php7.3-curl php7.3-xmlrpc python-simplejson software-properties-common \
+    php7.3-simplexml && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     locale-gen fr_CH.UTF-8 && \
