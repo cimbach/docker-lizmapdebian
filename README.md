@@ -11,7 +11,7 @@ They will then be readily available in Docker for the Lizmap Web Client once the
 
 Run `docker-compose up -d` as root from the cloned or downloaded directory (from the same location as the *docker-compose.yml* file).
 This will build the Docker image and run the container.\
-You can then access the Debian server with `docker exec -ti docker-lizmapdebian_docker-lizmapdebian_1 bash` as root.
+You can then access the Debian server with `docker exec -ti <container_id> bash` as root.
 
 If the container is stopped, you need to:
 - remove it (`docker rm <container id>`) and 
