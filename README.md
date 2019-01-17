@@ -2,9 +2,9 @@
 ## QGIS Server with Lizmap Web Client running on Debian Server
 
     Debian 10 (buster-slim)
-    QGIS Server 2.18 (2.18.23 as of writing)
+    QGIS Server 2.18 (2.18.24 as of writing)
     Lizmap Web Client 3.2.1
-    Projects from QGIS Desktop 2.18 (2.18.23) with Lizmap QGIS plugin 2.4 on Ubuntu 18.04
+    Projects from QGIS Desktop 2.18 (2.18.24) with Lizmap QGIS plugin 2.4.1 on Ubuntu 18.04
 
 If you have a QGIS project along with its Lizmap config file, put them both in a subdirectory of */home/qgis_projects/* on your local computer.\
 They will then be readily available in Docker for the Lizmap Web Client once the container has been started. You will still have to create a corresponding repository in the Lizmap administration page and set it as viewable.
