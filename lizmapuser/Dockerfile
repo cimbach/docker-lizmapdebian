@@ -7,7 +7,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV LWC=lizmap-web-client    
 ENV LWCVERSION=3.2.1
 ENV TIMEZONE=Europe/Zurich
-ENV QGISREPO=https://qgis.org/debian-ltr 
+ENV QGISREPO=https://qgis.org/debian 
 ENV DISTRIBNAME=buster
 
 RUN dpkg-divert --local --rename --add /sbin/initctl && \
