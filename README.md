@@ -20,7 +20,7 @@ To start the container you need to launch
 If you want to access the server,`docker exec -ti <container_id> bash` 
 
 Lizmap Web Client administration page is located at http://localhost:8888/lm/admin.php (*admin* / *admin*)\
-PHP info at http://localhost:8888/lm/info.php
+PHP info at http://localhost:8888/lm/phpinfo.php
 
 Ref:\
 [QGIS Server installation](https://docs.qgis.org/testing/en/docs/training_manual/qgis_server/install.html)\
