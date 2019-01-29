@@ -6,8 +6,8 @@
     Lizmap Web Client 3.2.1
     tag name: 10-2.18-3.2.1 or 10-3.4-3.2.1 
 
-If you want QGIS 2.18, set QGISREPO=https://qgis.org/debian-ltr in the docker-compose.yml file.\
-If you want QGIS 3.4, set QGISREPO=https://qgis.org/debian in the docker-compose.yml file.\
+If you want QGIS 2.18, set `QGISREPO=https://qgis.org/debian-ltr` in the docker-compose.yml file.\
+If you want QGIS 3.4, set `QGISREPO=https://qgis.org/debian` in the docker-compose.yml file.\
 
 If you have a QGIS project along with its Lizmap config file, put them both in a subdirectory of */home/qgis_projects/* on your local computer.\
 They will then be readily available in Docker for the Lizmap Web Client once the container has been started. You will still have to create a corresponding repository in the Lizmap administration page and set it as viewable.
